@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *input  - Entry point
+ *main - Entry point
  *
  * Description: print 0, 1, -9
  *
@@ -14,7 +14,6 @@ while (i < 10)
 putchar(i + 48);
 if (i != 9)
 {
-putchar (',');
 putchar (',');
 }
 i++;
