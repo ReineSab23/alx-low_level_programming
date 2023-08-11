@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * input - Entry point
  *
