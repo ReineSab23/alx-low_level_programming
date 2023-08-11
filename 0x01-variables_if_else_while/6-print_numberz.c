@@ -2,7 +2,8 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet single digits of base 10
+ * Description: print 0-9 using putchar
+ * while using int variable
  *
  * Return: 0 (success)
 */
@@ -11,7 +12,8 @@ int main(void)
 int i = 0;
 while (i < 10)
 {
-putchar("%i", i);
+/*convert digit to ASCII representation*/
+putchar(i + '0');
 i++;
 }
 putchar("\n");
