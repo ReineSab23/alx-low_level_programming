@@ -3,7 +3,7 @@
  * main - Entry level
  *
  * Description: A program that prints a line using printf function
- * Return: 0 (success)
+ * Return: always 0 (success)
 */
 int main(void)
 {
