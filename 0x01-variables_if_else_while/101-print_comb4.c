@@ -17,7 +17,7 @@ i2 = 0;
 while (i2 < 10)
 {
 i3 = 0;
-while (i2 < 10)
+while (i3 < 10)
 {
 if (i1 != i2 &&
 i1 < i2 &&
