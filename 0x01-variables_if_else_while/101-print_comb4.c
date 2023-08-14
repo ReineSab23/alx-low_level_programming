@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main  - Entry point
+ * main  - Entry point
  *
  * Description: print 0-99 using putchar
  * while using int variable
@@ -19,7 +19,10 @@ while (i2 < 10)
 i3 = 0;
 while (i2 < 10)
 {
-if (i1 != i2 && i1 < i2 && i2 != i3 && i2 < i3)
+if (i1 != i2 &&
+i1 < i2 &&
+i2 != i3 &&
+i2 < i3)
 {
 putchar(i1 + 48);
 putchar(i2 + 48);
