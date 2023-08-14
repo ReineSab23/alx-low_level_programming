@@ -13,6 +13,9 @@ int main(void)
 int i1 = 0, i2;
 while (i1 <= 99)
 {
+i2 = i1;
+while (i2 <= 99)
+{
 if (i1 != i2)
 {
 putchar((i1 / 10) + 48);
