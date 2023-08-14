@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * input - Entry point
+ * main - Entry point
  *
  * Description: print a-z in reverse
  *
