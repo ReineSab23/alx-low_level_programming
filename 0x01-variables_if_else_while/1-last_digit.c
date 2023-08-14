@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
- * main - entry point 
- * 
+/**
+ * main - entry point
+ *
  * Description: print the value of n status:
  *		greater than, is zero and is not less tahn 6.
  *
