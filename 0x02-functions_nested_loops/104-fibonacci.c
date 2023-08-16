@@ -60,4 +60,6 @@ printf(", ");
 else
 printf("\n");
 }
+
+return (0);
 }
