@@ -21,9 +21,9 @@ found = 0;
 
 for (j = 0; accept[j] != '\0'; j++)
 {
-if (s[i] == s[j])
+if (s[i] == accept[j])
 {
-found = 1
+found = 1;
 break;
 }
 }
