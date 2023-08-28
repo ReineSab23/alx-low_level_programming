@@ -19,7 +19,7 @@ for (i = 0; s[i] != '\0'; i++)
 {
 found = 0;
 
-for (j = 0; accept != '\0'; j++)
+for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == s[j])
 {
