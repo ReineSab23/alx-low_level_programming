@@ -4,28 +4,25 @@
 
 /**
  * *_strdup - returns a pointer to a newly allocated space in memory
- * @str: pointer
- * Return: pointer or NULL
+ * @*str: pointer
+ * Return: str on success otherwise NULL
 */
-char *_strdup(char *str)
+char *_strdup(char *str);
 {
+int i;
 if (str == NULL)
 {
 return (NULL);
 }
-int i;
-int n;
-while (str[n] != '\0')
+int n = 0;
+while 
 {
-n++;
+char *str = (char *)malloc(n * sizeof(char));
 }
-char *new_str = (char *)malloc((n + 1) * sizeof(char));
-if (new_str == NULL)
+if (n < str)
 {
 return (NULL);
 }
-for (i = 0; i <= n; i++)
-{
-new_str[i] = str[i];
+return (s);
 }
-return [new_str]
+
