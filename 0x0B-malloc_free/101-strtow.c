@@ -36,7 +36,7 @@ int i, j, k, l, n = 0, wc = 0;
 char **w;
 if (str == NULL || *str == '\0')
 return (NULL);
-| n = wrdcnt(str);
+n = wrdcnt(str);
 if (n == 1)
 return (NULL);
 w = (char **)malloc(n *sizeof(char *));
